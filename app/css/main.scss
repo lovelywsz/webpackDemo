@@ -1,0 +1,27 @@
+$badgeWidth:   5px!default;
+$badgeHeight:  16px!default;
+$badgeGap:     0 5px!default;
+$badgeBgColor:     #FE3824 !default;
+$badgeTextColor:   #fff!default;
+$badgeFontSize:  10px!default;
+$badgeRadius:   10px!default;
+
+body{background:#999;}
+.badge{
+    display: inline-block;
+    vertical-align: middle;
+    padding: $badgeGap;
+    height: $badgeHeight;
+    line-height: $badgeHeight;
+    border-radius: $badgeRadius;
+    background: $badgeBgColor;
+    color: $badgeTextColor;
+    font-size: $badgeFontSize;
+    text-align: center;
+}
+
+.imgbox{
+    display: block;
+    width:100px;height:100px;
+    background: url(../images/temp01.jpg);
+}
